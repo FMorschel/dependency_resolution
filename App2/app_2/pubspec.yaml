@@ -1,0 +1,71 @@
+name: app2
+description: A new Flutter project.
+
+version: 1.1.1
+
+publish_to: none
+
+resolution: workspace
+environment:
+  sdk: ^3.9.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  boxy: ^2.2.1
+  collection: ^1.17.0
+  equatable: ^2.0.5
+  firebase_analytics: ^11.3.3
+  firebase_app_check: ^0.3.1+4
+  firebase_auth: ^5.3.1
+  firebase_core: ^3.6.0
+  firebase_crashlytics: ^4.1.3
+  firebase_performance: ^0.10.0+8
+  flutter_staggered_grid_view: ^0.7.0
+  hex: ^0.2.0
+  intl: any
+  logging: ^1.2.0
+  material_design_icons_flutter: ^7.0.7296
+  meta: ^1.10.0
+  provider: ^6.0.5
+  time: ^2.1.3
+
+  network:
+    path: "../../Packages/network"
+  page_routing:
+    path: "../../Packages/page_routing"
+  loading:
+    path: "../../Packages/loading"
+  splashpage:
+    path: "../../Packages/splashpage"
+  login:
+    path: "../../Packages/login"
+  drawer:
+    path: "../../Packages/drawer"
+  adm_email_managing:
+    path: "../../Packages/adm_email_managing"
+  untraditional_dialog:
+    path: "../../Packages/untraditional_dialog"
+  version:
+    path: "../../Packages/version"
+  custom_fields:
+    path: "../../Packages/custom_fields"
+  percentage_chart:
+    path: "../../Packages/percentage_chart"
+  graficos:
+    path: "../../Packages/graficos"
+  padrao:
+    path: "../../Packages/padrao"
+  data_table:
+    path: "../../Packages/data_table"
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "assets/img/icon_app_gestor.png"
+
+flutter:
+  uses-material-design: true

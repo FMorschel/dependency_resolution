@@ -1,0 +1,57 @@
+name: _
+
+publish_to: none
+
+environment:
+  sdk: ^3.9.0
+
+workspace:
+  - App1/app_1
+  - App2/app_2
+  - App3/app_3
+  - App4/app_4
+  - App5/app_5
+  - App6/app_6_1
+  - App6/app_6_2
+  - App7/app_7
+
+  - Packages/adm_email_managing
+  - Packages/arquivos
+  - Packages/beep
+  - Packages/custom_fields
+  - Packages/data_table
+  - Packages/drawer
+  - Packages/graficos
+  - Packages/loading
+  - Packages/login
+  - Packages/network
+  - Packages/padrao
+  - Packages/page_routing
+  - Packages/percentage_chart
+  - Packages/qr_processor
+  - Packages/splashpage
+  - Packages/untraditional_dialog
+  - Packages/version
+  - Packages/widgets_listas
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  test: ^1.24.0
+  flutter_lints: ^6.0.0
+  dart_code_metrics: 5.7.4
+  very_good_analysis: ^9.0.0
+  flutter_launcher_icons: ^0.14.1
+  mobx_codegen: ^2.6.1
+  build_runner: ^2.4.13
+  drift_dev: ^2.26.1
+
+dependency_overrides:
+  analyzer: ^7.3.0
+  clock: ^1.1.2
+  collection: ^1.19.1
+  dio: ^5.4.3+1
+  http: ^1.1.0
+  intl: any
+  json_serializable: ^6.5.4
+  meta: ^1.16.0

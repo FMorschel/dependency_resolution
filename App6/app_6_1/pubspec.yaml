@@ -1,0 +1,36 @@
+name: app_6_1
+description: A new Flutter project.
+
+publish_to: "none"
+
+version: 1.0.0
+
+environment:
+  sdk: ^3.9.0
+
+resolution: workspace
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  bloc: ^8.0.1
+  cloud_firestore: ^5.5.0
+  dio: ^4.0.0
+  firebase_auth: ^5.3.3
+  firebase_core: ^3.8.0
+  flutter_easyloading: ^3.0.3
+  flutter_signin_button: ^2.0.0
+  google_sign_in: ^6.2.1
+  google_sign_in_web: ^0.12.0+5
+  logging: ^1.0.1
+  material_design_icons_flutter: ^7.0.7296
+  provider: ^6.0.0
+  validators: ^3.0.0
+  splashscreen:
+    git:
+      url: https://github.com/DPLYR-dev/SplashScreenFlutterPackage.git
+      ref: master
+
+flutter:
+  uses-material-design: true
