@@ -1,0 +1,186 @@
+﻿include:
+  - package:very_good_analysis/analysis_options.yaml
+  - package:flutter_lints/flutter.yaml
+
+formatter:
+  trailing_commas: preserve
+
+analyzer:
+  exclude:
+    - '**.g.dart'
+    - '**/ephemeral/**'
+    - '**/firebase_options.dart'
+    - '**/generated_plugin_registrant.dart'
+    - '**generated_plugin_registrant.dart'
+  language:
+    strict-casts: true
+    strict-inference: true
+    strict-raw-types: true
+  errors:
+    close_sinks: warning
+    record_literal_one_positional_no_trailing_comma: error
+    prefer_const_constructors_in_immutables: error
+    missing_return: warning
+    missing_override_of_must_be_overridden: error
+    must_call_super: error
+    unrelated_type_equality_checks: error
+    todo: ignore
+    public_member_api_docs: ignore
+    missing_required_param: error
+
+linter:
+  rules:
+    always_put_control_body_on_new_line: false
+    always_use_package_imports: false
+    depend_on_referenced_packages: false
+    flutter_style_todos: false
+    library_private_types_in_public_api: false
+    lines_longer_than_80_chars: false
+    no_leading_underscores_for_local_identifiers: false
+    parameter_assignments: false
+    sort_pub_dependencies: false
+    specify_nonobvious_property_types: false
+    unnecessary_await_in_return: false
+    unreachable_from_main: false
+    unsafe_variance: false # temporariamente falso
+
+    always_declare_return_types: true
+    always_put_required_named_parameters_first: true
+    avoid_annotating_with_dynamic: true
+    avoid_bool_literals_in_conditional_expressions: true
+    avoid_classes_with_only_static_members: true
+    avoid_double_and_int_checks: true
+    avoid_dynamic_calls: true
+    avoid_empty_else: true
+    avoid_field_initializers_in_const_classes: true
+    avoid_function_literals_in_foreach_calls: true
+    avoid_multiple_declarations_per_line: true
+    avoid_positional_boolean_parameters: true
+    avoid_print: true
+    avoid_redundant_argument_values: true
+    avoid_slow_async_io: true
+    avoid_types_on_closure_parameters: true
+    avoid_unused_constructor_parameters: true
+    avoid_void_async: true
+    await_only_futures: true
+    cancel_subscriptions: true
+    cascade_invocations: true
+    cast_nullable_to_non_nullable: true
+    close_sinks: true
+    directives_ordering: true
+    discarded_futures: true
+    empty_constructor_bodies: true
+    eol_at_end_of_file: true
+    exhaustive_cases: true
+    file_names: true
+    join_return_with_assignment: true
+    leading_newlines_in_multiline_strings: true
+    no_adjacent_strings_in_list: true
+    no_default_cases: true
+    noop_primitive_operations: true
+    omit_local_variable_types: true
+    prefer_asserts_in_initializer_lists: true
+    prefer_collection_literals: true
+    prefer_const_constructors_in_immutables: true
+    prefer_const_constructors: true
+    prefer_const_declarations: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_final_fields: true
+    prefer_final_in_for_each: true
+    prefer_final_locals: true
+    prefer_for_elements_to_map_fromIterable: true
+    prefer_foreach: true
+    prefer_function_declarations_over_variables: true
+    prefer_generic_function_type_aliases: true
+    prefer_if_elements_to_conditional_expressions: true
+    prefer_if_null_operators: true
+    prefer_inlined_adds: true
+    prefer_int_literals: true
+    prefer_interpolation_to_compose_strings: true
+    prefer_is_empty: true
+    prefer_is_not_empty: true
+    prefer_is_not_operator: true
+    prefer_iterable_whereType: true
+    prefer_null_aware_method_calls: true
+    prefer_null_aware_operators: true
+    prefer_relative_imports: true
+    prefer_single_quotes: true
+    prefer_spread_collections: true
+    prefer_typing_uninitialized_variables: true
+    prefer_void_to_null: true
+    public_member_api_docs: true
+    require_trailing_commas: true
+    sized_box_shrink_expand: true
+    sort_constructors_first: true
+    sort_unnamed_constructors_first: true
+    strict_top_level_inference: true
+    switch_on_type: true
+    test_types_in_equals: true
+    throw_in_finally: true
+    type_annotate_public_apis: true
+    type_init_formals: true
+    unawaited_futures: true
+    unnecessary_async: true
+    unnecessary_brace_in_string_interps: true
+    unnecessary_breaks: true
+    unnecessary_constructor_name: true
+    unnecessary_getters_setters: true
+    unnecessary_ignore: true
+    unnecessary_lambdas: true
+    unnecessary_late: true
+    unnecessary_new: true
+    unnecessary_null_aware_assignments: true
+    unnecessary_null_checks: true
+    unnecessary_null_in_if_null_operators: true
+    unnecessary_nullable_for_final_variable_declarations: true
+    unnecessary_overrides: true
+    unnecessary_parenthesis: true
+    unnecessary_raw_strings: true
+    unnecessary_statements: true
+    unnecessary_this: true
+    unnecessary_unawaited: true
+    use_build_context_synchronously: true
+    use_colored_box: true
+    use_decorated_box: true
+    use_enums: true
+    use_function_type_syntax_for_parameters: true
+    use_if_null_to_convert_nulls_to_bools: true
+    use_is_even_rather_than_modulo: true
+    use_late_for_private_fields_and_variables: true
+    use_named_constants: true
+    use_null_aware_elements: true
+    use_setters_to_change_properties: true
+    use_string_buffers: true
+    use_super_parameters: true
+    use_test_throws_matchers: true
+    use_to_and_as_if_applicable: true
+    void_checks: true
+# plugins:
+#   essential_lints:
+#     # version: ^0.1.7
+#     path: "D:\\dev\\dart\\essential_lints\\essential_lints\\"
+#     diagnostics:
+#       - boolean_assignment
+#       - border_all
+#       - border_radius_all
+#       - closure_incorrect_type
+#       - completer_error_no_stack
+#       - duplicate_value
+#       - empty_container
+#       - equal_statement
+#       - first_getter
+#       - is_future
+#       - last_getter
+#       - mutable_tearoff
+#       - new_instance_cascade
+#       - numeric_constant_style
+#       - padding_over_container
+#       - pending_listener
+#       - standard_comment_style
+#       - unnecessary_setstate
+# - prefer_explicitly_named_parameter
+# - optional_positional_parameters
+# - returning_widgets
+# - useless_else
+# - same_package_direct_import
+# - variable_shadowing
