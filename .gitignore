@@ -1,0 +1,6 @@
+.logs/
+*.logs
+
+**/.dart_tool/
+
+**/pubspec.lock
