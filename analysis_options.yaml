@@ -155,32 +155,9 @@ linter:
     use_test_throws_matchers: true
     use_to_and_as_if_applicable: true
     void_checks: true
-# plugins:
-#   essential_lints:
-#     # version: ^0.1.7
-#     path: "D:\\dev\\dart\\essential_lints\\essential_lints\\"
-#     diagnostics:
-#       - boolean_assignment
-#       - border_all
-#       - border_radius_all
-#       - closure_incorrect_type
-#       - completer_error_no_stack
-#       - duplicate_value
-#       - empty_container
-#       - equal_statement
-#       - first_getter
-#       - is_future
-#       - last_getter
-#       - mutable_tearoff
-#       - new_instance_cascade
-#       - numeric_constant_style
-#       - padding_over_container
-#       - pending_listener
-#       - standard_comment_style
-#       - unnecessary_setstate
-# - prefer_explicitly_named_parameter
-# - optional_positional_parameters
-# - returning_widgets
-# - useless_else
-# - same_package_direct_import
-# - variable_shadowing
+
+plugins:
+  essential_lints:
+    version: ^0.1.7
+    diagnostics:
+      - pending_listener
